@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'my-app';
   btnVisible: boolean = true;
 
-  abc(){
-    // window.location.href = 'tel:01775236027';
+  makeCall(){
+    window.location.href = 'tel:0188888';
   }
 }

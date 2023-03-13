@@ -17,8 +17,10 @@
 }
 
 
-#inner {
-  background-color: pink;
+.inner {
+  top: 100px;
+  right: -100px;
+
 }
 
 
@@ -40,39 +42,8 @@
 }
 
 
-#inner {
-  background-color: pink;
-}
 
 
-
-
-
-
-
-// .parent {
-//   position: relative;
-//   height: 80px;
-//   top: 100px;
-//   right: -100px;
-
-// }
-
-// .left, .right {
-//   position: absolute;
-//   background-color: white;
-//   border: 1px solid black;
-//   padding: 1em 3em;
-//   align-content: center;
-
-// }
-// .left {
-//   padding: .5em 3em;
-//   // top: 100px;
-//   left: 100px;
-//   transform: rotate(90deg);
-
-// }
 
 
 
