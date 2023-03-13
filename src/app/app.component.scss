@@ -22,3 +22,39 @@
   background-color: pink;
 }
 
+//
+
+.parent {
+  position: relative;
+  height: 80px;
+  top: 100px;
+  right: -100px;
+
+}
+
+.left, .right {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em 3em;
+  align-content: center;
+
+}
+.left {
+  padding: .5em 3em;
+  top: .5em;
+  left: 2em;
+  transform: rotate(90deg);
+
+}
+.right {
+  top: 0;
+  left: 8em;
+  // top: 100px;
+  // right: -100px;
+
+}
+
+
+
+

@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-app';
   btnVisible: boolean = true;
+
+  abc(){
+    // window.location.href = 'tel:01775236027';
+  }
 }
